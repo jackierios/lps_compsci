@@ -1,0 +1,6 @@
+print("These are our ice creams:")
+print("['chocolate', 'Vanilla', 'Strawberry', 'Salted Caramel','Mint Chip']")
+print("Want to add a new ice cream flavor? Enter it now:") 
+new_flavor = str(raw_input())
+print("Great! Here's our menu:")
+print(" Chocolate, Vanilla , Strawberry , Salted Caramel, Mint chip, " + new_flavor)
